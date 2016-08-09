@@ -8,6 +8,8 @@ def substrings(string, dictionary)
     end
   end
 
+  matches = matches.sort_by { |a, b| b }
+  matches.reverse!
   matches.each do |key, value|
     print "#{value} - #{key}\n"
   end
