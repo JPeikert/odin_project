@@ -1,10 +1,10 @@
 def substrings(string, dictionary)
-  matches = Hash.new
+  matches = Hash.new(0)
   string.downcase!
 
   dictionary.each do |word|
     string.scan(word.downcase) do |match|
-      matches.key?(match) ? matches[match] += 1 : matches[match] = 1
+      matches[match] += 1
     end
   end
 
