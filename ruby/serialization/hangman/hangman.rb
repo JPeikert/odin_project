@@ -54,8 +54,9 @@ class Hangman
     @misses = miss
     @guessed = g
     @runs = r
-
+    
     puts "Loaded successfully"
+
     run
   end
 
