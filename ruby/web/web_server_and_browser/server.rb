@@ -28,6 +28,8 @@ class Server
   private
 
 
+## REQUESTS HANDLING
+
 # Get request from client
   def get_request(client)
     request = ""
