@@ -10,7 +10,7 @@ def caesar_cipher(phrase, shift)
     end
     x = x.chr
     cipher += x
-    end
+  end
   puts cipher
 end
 

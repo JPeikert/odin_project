@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <style></style>
+  </head>
+  <body>
+    <p>
+    </p>
+    <p>
+      <%= "Encoded message: #{cipher}" if cipher %>
+    </p>
+    <form action='/cipher' method='post'>
+      <label for='msg'>Message</label>
+      <input type='text' name='msg' />
+      <label for='shift'>Shift</label>
+      <input type='text' name='shift' />
+      <input type='submit' value='Cipher!' />
+    </form>
+  </body>
+</html>
