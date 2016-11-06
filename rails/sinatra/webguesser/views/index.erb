@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <style>
+      body {
+        <% color = case result
+        when 2 then "red"
+        when 1 then "lightcoral"
+        when 0 then "green"
+        end %>
+        background: <%= color %>;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <%= message %>
+    </p>
+    <p>
+      <%= "The SECRET NUMBER was #{secret_number}" if result == 0 || cheat %>
+    </p>
+    <form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
+  </body>
+</html>
