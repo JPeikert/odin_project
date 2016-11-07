@@ -1,24 +1,20 @@
-# README
+#Blogger
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Implementation of an exercise from [The Odin Project](http://theodinproject.com)'s  [*Project: Getting Your Feet Wet With Rails*](http://www.theodinproject.com/ruby-on-rails/getting-your-feet-wet)
 
-Things you may want to cover:
+Full tutorial at [jumpstart labs](http://tutorials.jumpstartlab.com/projects/blogger.html)
 
-* Ruby version
+###[View Live](https://jpeikert-blogger.herokuapp.com)
 
-* System dependencies
+####The techniques practiced:
 
-* Configuration
+* MVC pattern
+* REST architecture
+* basic authentication
 
-* Database creation
+####Requirements
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby
+* Rails
+* Paperclip gem
+* Sorcery gem
