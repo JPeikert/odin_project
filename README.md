@@ -1,24 +1,21 @@
-# README
+# Toy App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Implementation of an exercise from [The Odin Project](http://theodinproject.com)'s  [*Project: Getting Your Feet Wet With Rails*](http://www.theodinproject.com/ruby-on-rails/getting-your-feet-wet)
 
-Things you may want to cover:
+Full tutorial at [Ruby on Rails tutorial by Michael Hartl](https://www.railstutorial.org/book/toy_app)
 
-* Ruby version
+Extremely simple application application that enables to create (and edit and delete) users and microposts.
 
-* System dependencies
+###[View Live](https://jpeikert-toy-app.herokuapp.com)
 
-* Configuration
+####The techniques practiced:
 
-* Database creation
+* Scaffolding
+* basic MVC pattern
+* basic REST architecture
+* basic data validation
 
-* Database initialization
+####Requirements
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby
+* Rails
