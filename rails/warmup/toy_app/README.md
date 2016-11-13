@@ -4,7 +4,7 @@ Implementation of an exercise from [The Odin Project](http://theodinproject.com)
 
 Full tutorial at [Ruby on Rails tutorial by Michael Hartl](https://www.railstutorial.org/book/toy_app)
 
-Extremely simple application application that enables to create (and edit and delete) users and microposts.
+Extremely simple application that enables to create (and edit and delete) users and microposts.
 
 ###[View Live](https://jpeikert-toy-app.herokuapp.com)
 
